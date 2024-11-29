@@ -31,6 +31,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 /* Dòng chữ dưới hình ảnh */
@@ -92,7 +93,7 @@ body {
     width: 200px;
     height: 300px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 27px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
     cursor: pointer;
@@ -146,6 +147,7 @@ body {
         width: 22%; /* Mỗi lá bài chiếm khoảng 22% chiều rộng */
         height: auto; /* Đảm bảo tỷ lệ chiều cao đúng */
         max-width: 200px; /* Giới hạn chiều rộng tối đa */
+        border-radius: 10px;
     }
 
     /* Đảm bảo bóng thoại vẫn có chiều rộng hợp lý trên điện thoại */
@@ -159,6 +161,7 @@ body {
     .header {
         justify-content: center;
         text-align: center;
+        
     }
 }
 
